@@ -1,4 +1,4 @@
-import com.sun.security.auth.module.NTSystem;
+
 
 import java.util.*;
 
@@ -9,8 +9,6 @@ public class Main {
     public static Random rand = new Random();
     public static int verPosH = 0;
     public static int horPosH = 0;
-    public static int verPosZ = rand.nextInt((5 - 1) + 1) + 1;
-    public static int horPosZ = rand.nextInt((4 - 1) + 1) + 1;
     public static int verPosG = rand.nextInt((5 - 1) + 1) + 1;
     public static int horPosG = rand.nextInt((4 - 1) + 1) + 1;
     //build jFrame window

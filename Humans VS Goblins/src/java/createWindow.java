@@ -1,8 +1,7 @@
-import com.sun.security.auth.module.NTSystem;
+
 
 import java.awt.*;
 import javax.swing.*;
-import java.util.StringJoiner;
 
 public class createWindow {
 
