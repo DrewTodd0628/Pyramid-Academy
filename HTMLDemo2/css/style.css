@@ -1,0 +1,145 @@
+.header {
+    background-color: #47bfff;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+
+nav {
+    margin-top: 40px;
+}
+
+nav > a {
+    margin: 10px;
+    padding: 8px;
+    color:#47bfff;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.jumbotron {
+    font-family: unispace;
+    /* font-family: 'Courier New', Courier, monospace */
+}
+
+.jumbotron > h1 {
+    font-size: 50px;
+}
+
+.jumbotron > p {
+    font-size: 15px;;
+}
+
+.container {
+    font-family: sans-serif;
+}
+
+.col-outer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.picker-item {
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    max-height: 300px;
+}
+
+.picker-item-inner {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.picker-item-inner > h4{
+    padding-top: 30px;
+}
+
+.picker-item-inner > img{
+    width: 180px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.col-inner {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.col-inner > img {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    padding: 40px;
+    font-size: 15px;
+    background-color: rgb(75, 75, 75);
+    color: #FFF;
+    text-align:center
+}
+footer > div > a {
+    color: rgb(124, 234, 246);
+}
+
+.btn-start {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(111, 230, 167);
+    border-radius: 10px;
+    max-width: 140px;
+    padding: 10px;
+}
+.btn-start > a {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.body > div{
+    margin: 10px;
+
+}
+.body > div > h5{
+    margin-top: 40px;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-input {
+    border-radius: 5px;
+    border: solid rgb(227, 226, 226);
+    color: rgb(133, 133, 133);
+}
+
+.submit {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #47bfff;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.text-input:focus {
+    outline: none;
+    border-radius: 5px;
+    border: solid #c2c2c2;
+    color: rgb(133, 133, 133);
+}
