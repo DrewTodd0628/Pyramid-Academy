@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import ItemSearch from './ItemSearch';
 
 const Navbar = () => {
 
+  const [search, setSearch] = useState("");
   const navigate = useNavigate();
 
   return (
     <nav>
-        <button onClick={() => navigate("/shop")}>Shop</button>
+      <span>
+        <ItemSearch search={search} setSearch={setSearch} />
+      </span>
+      
+      <span>
+      <button onClick={() => navigate("/shop")}>Shop</button>
         <button onClick={() => navigate("/shopping-cart")}>Shopping Cart</button>
         <button onClick={() => navigate("/checkout")}>Check Out</button>
+      </span>
     </nav>
   )
 }
